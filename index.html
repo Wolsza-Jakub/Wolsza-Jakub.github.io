@@ -13,30 +13,26 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 
-	<!-- Define format for project pages in a "class"-->
-	<head>
+	<!-- Define page class with ".NAME { attr}" format. 
+		This allows for pages to share attributes (like class in other languages)  -->
 		<style>
 		.all-browsers {
 		  margin: 0;
 		  padding: 5px;
 		  background-color: lightgray;
 		}
-		
 		.all-browsers > h1, .browser {
 		  margin: 10px;
 		  padding: 5px;
 		}
-		
 		.browser {
 		  background: white;
-		}
-		
+		}	
 		.browser > h2, p {
 		  margin: 4px;
 		  font-size: 90%;
 		}
 		</style>
-	</head>
 
 
 	<body class="is-preload">
@@ -105,8 +101,7 @@
 						<article id = "emgbot">
 							<!-- Insert attributes you'd like for this article. Use CSS to style the class for
 							a defined article so it doesn't look identical to everthing else...-->
-
-							<h2 class="major">EMG Robot Arm</h2>
+							<h2 class="all-browsers">EMG Robot Arm</h2>
 							<p>I wonder if this page actually works as a link...
 								FILLER<br>
 								FILLER<br>
@@ -130,10 +125,7 @@
 								<img src="images/Robot Arm/SolidWorks_Arm.PNG" alt="EMG SCHEMATIC" width="500" height="600">
 								<img src="images/Robot Arm/EMG_SCHEMATIC-1.PNG" alt="EMG SCHEMATIC">
 								<img src="images/Robot Arm/EMG_BOARD-1.PNG" alt="EMG BOARD">
-
-
 							</p>
-						
 							See other projects <a href="#work">here</a>,, or another <a href="#proj2">here</a>.
 						</article>	
 							
