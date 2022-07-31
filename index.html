@@ -19,9 +19,27 @@
 			border-bottom-style: outset;
 			border-color:white;
 		}
-		img.work
+
+		div.gallery 
 		{
-			border: 2px solid rgb(107, 37, 37);
+  			margin: 5px;
+ 			border: 2px solid rgb(107, 37, 37);
+ 			float: left;
+  			width: 180px;
+		}
+		div.gallery:hover 
+		{
+ 			border: 2px solid rgb(60, 52, 136);
+		}
+		div.gallery img 
+		{
+ 			width: 100%;
+ 			height: auto;
+		}
+		div.desc 
+		{
+  			padding: 15px;
+  			text-align: center;
 		}
 
 	</style>
@@ -82,25 +100,33 @@
 									<br>
 
 									<h4>EMG Robot Arm </h4>
-									<a href="#emgbot">
-										<img alt="Robot Arm" src="images/Robot_Arm/SolidWorks_Arm.PNG"
-								         width=200" height="200" allign = left class = "work">
-									</a>
-								    <h4>EMG Robot Arm </h4>
-									<a href="#emgbot">
-										<img alt="Robot Arm" src="images/Robot_Arm/SolidWorks_Arm.PNG"
-								         width=200" height="200" allign = right class = "work">
-									</a>
-									<h4>EMG Robot Arm </h4>
-									<a href="#emgbot">
-										<img alt="Robot Arm" src="images/Robot_Arm/SolidWorks_Arm.PNG"
-								         width=200" height="200" allign = left class = "work">
-									</a>
-									<h4>EMG Robot Arm </h4>
-									<a href="#emgbot">
-										<img alt="Robot Arm" src="images/Robot_Arm/SolidWorks_Arm.PNG"
-								         width=200" height="200" allign = right class = "work">
-									</a>
+									<div class="gallery">
+										<a target="_blank" href="#emgbot">
+										  <img src="images/Robot_Arm/SolidWorks_Arm.PNG" alt="Robot Arm" width="300" height="300">
+										</a>
+										<div class="desc">EMG Robot Arm</div>
+									  </div>
+									  
+									  <div class="gallery">
+										<a target="_blank" href="#emgbot">
+											<img src="images/Robot_Arm/SolidWorks_Arm.PNG" alt="Robot Arm" width="300" height="300">
+										</a>
+										<div class="desc">EMG Robot Arm2</div>
+									  </div>
+									  
+									  <div class="gallery">
+										<a target="_blank" href="#emgbot">
+											<img src="images/Robot_Arm/SolidWorks_Arm.PNG" alt="Robot Arm" width="300" height="300">
+										</a>
+										<div class="desc">EMG Robot Arm3</div>
+									  </div>
+									  
+									  <div class="gallery">
+										<a target="_blank" href="#emgbot">
+											<img src="images/Robot_Arm/SolidWorks_Arm.PNG" alt="Robot Arm" width="300" height="300">
+										</a>
+										<div class="desc">EMG Robot Arm4</div>
+									  </div>
 
 									For now: <a href="#emgbot">EMG Robot Arm</a>
 									<br> Here's a different one: <a href="#proj2">Diff</a>
