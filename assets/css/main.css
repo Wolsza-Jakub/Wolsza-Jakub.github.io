@@ -1564,19 +1564,26 @@ input, select, textarea {
 				max-width: 100%;
 			}
 
-				#main article.proj h2>
+				#main article.proj >h2
 				{
 					text-align: center;
 					font-family: "Times New Roman", Times, serif;
 					text-shadow: 1px 1px 2px;
-					color:black;
+					color:white;
 				}
 
-				#main article.proj p>
+				#main article.proj >p
 				{
 					text-align: left;
 					color:black;
 				}
+
+			#main article.resume
+			{
+					border-radius: 30px;
+					width: 100rem;
+					max-width: 100%;
+			}
 
 			
 
