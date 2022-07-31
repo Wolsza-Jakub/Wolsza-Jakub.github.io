@@ -1555,6 +1555,8 @@ input, select, textarea {
 			#main article.proj
 			{
 				width: 500rem;
+				max-width: 100%;
+				background-color:cadetblue;
 			}
 			
 
