@@ -1549,28 +1549,25 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;      /*500 rem works */
 			max-width: 100%;
-			background-color:rgb(146, 37, 37);
+			background-color:rgb(25, 83, 83);
 			border-style: solid;
-			border-color: rgb(32, 121, 43);
+			border-color: rgb(107, 37, 37);
 			border-width: 5px;
 			
 			opacity: 0;
 		}
+		#main article >h2
+		{
+			text-align: center;
+		}
 			
+		/* Project Attributes */
 			#main article.proj
 			{
 				border-radius: 30px;
 				width: 500rem;
 				max-width: 100%;
 			}
-
-				#main article.proj >h2
-				{
-					text-align: center;
-					font-family: "Times New Roman", Times, serif;
-					text-shadow: 1px 1px 2px;
-					color:white;
-				}
 
 				#main article.proj >p
 				{
