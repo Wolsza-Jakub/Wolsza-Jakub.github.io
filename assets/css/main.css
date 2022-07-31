@@ -1551,12 +1551,12 @@ input, select, textarea {
 			border-radius: 4px;
 			opacity: 0;
 		}
-			/*
-			#main article-proj
+			
+			#main article.proj
 			{
 				width: 500rem;
 			}
-			*/
+			
 
 			#main article.active {
 				-moz-transform: translateY(0);
