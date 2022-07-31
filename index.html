@@ -30,6 +30,12 @@
   			margin: 20px;
   			padding: 20px;
 		}
+		.footnote
+		{
+			border: 2px solid black;
+			margin: 5px;
+			color: white;
+		}
 
 
 	</style>
@@ -99,8 +105,8 @@
 						
 						<!-- Project 1 :  has to be within container "main" to exist as a subpage of landing page.
 										otherwise, it's put beneath or above the landing page.-->
-						<div class = "proj-page">
-							<article id = "emgbot"> 
+						
+						<article id = "emgbot" class = "proj-page"> 
 								<!-- Insert attributes you'd like for this article. Use CSS to style the class for
 								a defined article so it doesn't look identical to everthing else...-->
 								<h2>EMG Robot Arm</h2>
@@ -129,12 +135,11 @@
 									<img src="images/Robot Arm/EMG_BOARD-1.PNG" alt="EMG BOARD">
 								</p>
 								See other projects <a href="#work">here</a>,, or another <a href="#proj2">here</a>.
-							</article>	
-						</div>
+						</article>	
 						
-					     	
+						     	
 
-						<article class="all-browsers" id = "proj2">
+						<article id = "proj2">
 							<h1>Most Popular Browsers</h1>
 							<article class="browser">
 							  <h2>Google Chrome</h2>
@@ -437,8 +442,13 @@
 										</ul>
 									</form>
 								</section>
-
 							</article>
+
+						<div class = "footnote">
+							<p>
+								Click <a href="#contact">here</a> to contact
+							</p>
+						</div>
 
 					</div>
 
