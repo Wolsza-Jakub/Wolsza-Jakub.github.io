@@ -1107,7 +1107,7 @@ input, select, textarea {
 /* BG */
 	
 	#bg{
-		color:rgb(49, 105, 16);
+		color:rgb(4, 3, 22);
 	}
 	/*
 	#bg {
@@ -1549,10 +1549,11 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;      /*500 rem works */
 			max-width: 100%;
-			background-color:rgb(92, 91, 91);
+			background-color:rgb(146, 37, 37);
 			border-style: solid;
-			border-color: brown;
+			border-color: rgb(32, 121, 43);
 			border-width: 5px;
+			
 			opacity: 0;
 		}
 			
