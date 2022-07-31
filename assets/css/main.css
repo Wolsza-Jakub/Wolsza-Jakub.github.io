@@ -1556,10 +1556,10 @@ input, select, textarea {
 			
 			opacity: 0;
 		}
-		#main article >h2
+		#main h2.major
 		{
 			text-align: center;
-			
+
 		}
 		#main article.resume
 		{
