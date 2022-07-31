@@ -1582,6 +1582,11 @@ input, select, textarea {
 					text-align: left;
 					color:white;
 				}
+				#main article.proj >h4
+				{
+					text-align: left;
+					color:rgb(107, 37, 37);
+				}
 
 		
 
