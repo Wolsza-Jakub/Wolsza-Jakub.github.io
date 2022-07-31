@@ -1556,17 +1556,13 @@ input, select, textarea {
 			
 			opacity: 0;
 		}
-		#main h2.major
-		{
-			text-align: center;
-
-		}
 		#main article.resume
 		{
-					border-radius: 30px;
-					width: 100rem;
-					max-width: 100%;
+			border-radius: 30px;
+			width: 100rem;
+			max-width: 100%;
 		}
+
 			
 
 		/* Project Attributes */
