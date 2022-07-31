@@ -1562,9 +1562,10 @@ input, select, textarea {
 			width: 100rem;
 			max-width: 100%;
 		}
-		#main article >h2
+		#main article  >h2
 		{
 			text-align:center;
+			border-style: outset;
 		}
 
 			
