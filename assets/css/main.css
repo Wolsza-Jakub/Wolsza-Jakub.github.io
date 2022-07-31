@@ -1107,7 +1107,7 @@ input, select, textarea {
 /* BG */
 	
 	#bg{
-		color:darkblue;
+		color:rgb(51, 139, 0);
 	}
 	/*
 	#bg {
@@ -1568,13 +1568,13 @@ input, select, textarea {
 					text-align: center;
 					font-family: "Times New Roman", Times, serif;
 					text-shadow: 1px 1px 2px;
-					color:white
+					color:black;
 				}
 
 				#main article.proj p>
 				{
 					text-align: left;
-					color:white;
+					color:black;
 				}
 
 			
