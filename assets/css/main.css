@@ -1562,11 +1562,6 @@ input, select, textarea {
 			width: 100rem;
 			max-width: 100%;
 		}
-		#main article  >h2
-		{
-			text-align:center;
-			border-style: outset;
-		}
 
 			
 
@@ -1577,6 +1572,7 @@ input, select, textarea {
 				width: 500rem;
 				max-width: 100%;
 			}
+				/*
 				#main article.proj >p
 				{
 					text-align: left;
@@ -1587,6 +1583,7 @@ input, select, textarea {
 					text-align: left;
 					color:rgb(107, 37, 37);
 				}
+				*/
 
 		
 
